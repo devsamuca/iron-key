@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 
 const routes = createBrowserRouter([
-    { path: "/devsamuca/iron-key/", element: <Home /> },
+    { path: "/iron-key/", element: <Home /> },
     { path: "*", element: <NotFound /> }
 ]);
 

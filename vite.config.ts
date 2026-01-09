@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/devsamuca/iron-key',
+  base: '/iron-key',
 })
