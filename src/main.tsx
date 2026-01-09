@@ -1,12 +1,15 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './app/styles/global.css'
-import routes from './app/routes/routes'
-import { RouterProvider } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import Home from './app/pages/Home'
+import NotFound from './app/pages/NotFound'
 
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <RouterProvider router={routes} />
-  </StrictMode>
+  <HashRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </HashRouter>
 )
