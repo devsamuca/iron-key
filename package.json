@@ -1,5 +1,6 @@
 {
   "author": "Samuel Souza",
+  "homepage": "https://devsamuca.github.io/iron-key",
   "name": "ironkey",
   "private": true,
   "version": "0.0.0",
@@ -12,6 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "motion": "^12.24.12",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-toastify": "^11.0.5",
