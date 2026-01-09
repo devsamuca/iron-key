@@ -4,7 +4,7 @@ import NotFound from "../pages/NotFound";
 
 const routes = createBrowserRouter([
     { path: "/iron-key/", element: <Home /> },
-    { path: "*", element: <NotFound /> }
+    { path: "/iron-key/*", element: <NotFound /> }
 ]);
 
 export default routes;
