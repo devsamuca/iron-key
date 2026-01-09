@@ -1,0 +1,36 @@
+.right-07px {
+    right: 0.7px;
+}
+
+.bottom-1px {
+    bottom: 1px;
+}
+
+.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+input[type="range"] {
+    background: #0065B4;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #0065B4;
+}
+
+progress::-webkit-progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #C0C0C0;
+}
+
+progress::-webkit-progress-value {
+    background: #0065B4;
+}

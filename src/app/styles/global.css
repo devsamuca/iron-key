@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('/fonts/Outfit-VariableFont_wght.ttf') format('truetype')
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+*::selection {
+    background-color: #6A7282;
+    color: white;
+}
+
+.h-1-px {
+    height: 1px;
+}
+
+.min-h-90-screen {
+    min-height: 90vh;
+}
