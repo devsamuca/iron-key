@@ -82,7 +82,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <main className="flex min-h-90-screen justify-center items-center flex-col gap-10 bg-white">
+            <main className="flex min-h-90-screen justify-center items-center flex-col gap-10 bg-white mb-4">
                 <Title />
                 <motion.section className="flex flex-col gap-2 p-8 rounded-2xl box-shadow w-full max-w-md"
                     initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>

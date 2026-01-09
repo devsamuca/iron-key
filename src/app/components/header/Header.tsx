@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
-        <header className="flex justify-around items-center pt-2 border-b pb-2 border-gray-300">
+        <header className="flex justify-around items-center pt-2 border-b pb-2 border-gray-300 mb-4">
             <aside className="flex gap-6 items-center">
                 <div className="flex gap-2 items-center bg-blue-50 py-1 px-2 rounded">
                     <img src="/iron-key/assets/logo/key-logo.png" alt="Iron Key Logo" className="h-6" />
