@@ -8,7 +8,7 @@ const Header = () => {
                 </div>
                 <a className="text-gray-500" href="/">Home</a>
             </aside>
-            <a href="https://github.com/iron-key"><img src="/iron-key/assets/icons/github.png" alt="Iron Key Logo" className="h-9 hover:bg-gray-50 p-1 rounded" /></a>
+            <a href="https://github.com/devsamuca/iron-key"><img src="/iron-key/assets/icons/github.png" alt="Iron Key Logo" className="h-9 hover:bg-gray-50 p-1 rounded" /></a>
         </header>
     )
 }
